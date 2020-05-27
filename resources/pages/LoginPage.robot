@@ -6,7 +6,7 @@ Documentation       LoginPage
 ***Variables***
 ${DIV_ALERT}        class:alert
 
-***Keywords***
+***Keywords*** 
 Login With
     [Arguments]     ${email}       ${pass}
 

@@ -7,7 +7,7 @@ Documentation       ProductPage
 ${PRODUCT_ADD}        class:product-add
 ${ALERT_DANGER}       class:alert-danger
 
-***Keywords***
+***Keywords*** 
 Go To Add Form
     Wait Until Element Is Visible   ${PRODUCT_ADD}
     Click Element                   ${PRODUCT_ADD}

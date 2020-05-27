@@ -56,7 +56,7 @@ Então devo ver a mensagem de alerta
     [Arguments]         ${expect_alert}
     Wait Until Element Contains     ${ALERT_DANGER}      ${expect_alert}
 
-# exclusão
+# exclusão 
 
 Dado "${json_file}" é um produto indesejado
     # Implementando com o conceito de Shared Steps

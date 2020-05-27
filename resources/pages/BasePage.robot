@@ -6,7 +6,7 @@ ${base_url}         http://pixel-web:3000
 
 ***Keywords***
 ## hooks
-Open Session
+Open Session 
     Open Chrome
     Set Window Size     1440    900
 

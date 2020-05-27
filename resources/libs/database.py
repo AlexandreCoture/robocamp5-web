@@ -16,3 +16,4 @@ def remove_product_by_title(title):
     cur.execute(query)
     conn.commit()
     conn.close()
+ 

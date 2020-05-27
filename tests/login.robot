@@ -8,7 +8,7 @@ Resource        ../resources/actions.robot
 
 Suite Setup         Open Session
 Suite Teardown      Close Session
-
+ 
 Test Teardown       After Test
 
 ***Test Cases***
