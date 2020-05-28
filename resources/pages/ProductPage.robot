@@ -18,9 +18,13 @@ Request Removal
 
     Click Element    xpath://tr[td//text()[contains(., '${title}')]]//button
 
+
 Confirm Removal
     Sleep   2
     Click Element   class:swal2-confirm
+
+Cancel Removal
+    Click Element   class:swal2-cancel
 
 Create New Product
     [Arguments]     ${product_json}
