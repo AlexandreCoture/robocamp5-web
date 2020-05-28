@@ -22,7 +22,7 @@ Apagar produto
 
 # Desafio do Ninja
 Desistir da remoção
-    Dado que eu tenho o rpoduto "zelda.json"
+    Dado que eu tenho o produto "zelda.json"
     Quando solicito a exclusão
     Mas cancelo a solicitação
     Então devo ver este esse na lista
