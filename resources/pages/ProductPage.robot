@@ -5,14 +5,17 @@ Documentation       ProductPage
 
 ***Variables***
 ${PRODUCT_ADD}        class:product-add
-${ALERT_DANGER}       class:alert-danger
 ${INPUT_PRODUCERS}      class:producers
 
 ***Keywords*** 
 Go To Add Form
     Wait Until Element Is Visible   ${PRODUCT_ADD}
     Click Element                   ${PRODUCT_ADD}
+    Wait Until Page Contains        Novo Produto
 
+Go To Route Form
+    Go To       ${base_url}/admin/products/add
+    Wait Until Page Contains        Novo Produto
 Request Removal
     [Arguments]     ${title}
 
@@ -31,7 +34,8 @@ Create New Product
 
     Input Text      css:input[placeholder$="produto?"]      ${product_json['title']}
 
-    Select Category  ${product_json['cat']}
+    Run Keyword if      "${product_json['cat']}"
+    ...                 Select Category      ${product_json['cat']}
 
     Input Text      css:input[name=price]            ${product_json['price']}
     Input Producers  ${product_json['producers']}
