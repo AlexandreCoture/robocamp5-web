@@ -8,7 +8,7 @@ Resource        ../../resources/actions.robot
 
 Suite Setup         Login Session  papito@ninjapixel.com    pwd123
 Suite Teardown      Close Session
- 
+   
 Test Teardown       After Test
 
 ***Test Cases***

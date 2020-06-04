@@ -3,7 +3,7 @@ Documentation       Tentativa de cadastro de produtos
 ...                 Estes cenários enriquecem a história da suite cadastro.robot
 
 
-Resource        ../../resources/actions.robot
+Resource        ../../resources/actions.robot 
 
 Suite Setup         Product Add Session  papito@ninjapixel.com    pwd123
 Suite Teardown      Close Session
