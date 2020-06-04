@@ -4,7 +4,7 @@ Documentation   Login
 ...             Quero me autenticar no sistema
 ...             Para que eu possa gerenciar os produtos da loja virtual
 
-Resource        ../resources/actions.robot
+Resource        ../../resources/actions.robot
 
 Suite Setup         Open Session
 Suite Teardown      Close Session
@@ -13,7 +13,7 @@ Test Teardown       After Test
 
 ***Test Cases***
 Usuário autenticado
-    [tags]     success_login
+    [tags]     smoke
     Dado que acesso a página login
     Quando submeto minhas credenciais "papito@ninjapixel.com" e "pwd123"
     Então devo ser autenticado
