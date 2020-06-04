@@ -56,4 +56,4 @@ Open Chrome
     Open Browser        about:blank     chrome    options=add_experimental_option('excludeSwitches', ['enable-logging'])
 
 Open Chrome Headless
-    Open Browser        about:blank     headlessChrome
+    Open Browser        about:blank     headlessChrome      options=add_argument('--disable-dev-shm-usage')
